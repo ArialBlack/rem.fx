@@ -1,0 +1,80 @@
+/* CSS Document */
+
+.navbar-brand > img {
+   width:auto; height:40px;
+}
+.navbar-brand {padding-bottom:5px; height:50px;}
+
+.navbar-default {background:#000000 !important;}
+.navbar-default li {font-size:13px;}  
+
+.navbar-nav > li > a {
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  
+    color: #ff3b2f;
+}
+
+
+.navbar {min-height:50px;}
+
+.admin #wrapper { margin-top:100px; margin-bottom:100px;}
+
+#sidebar-wrapper {background:#f8f8f8;}
+
+.border {border:#dddddd 1px solid; overflow:hidden;
+-webkit-border-radius: 5px; 
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.pam-label {font-size:14px; margin-top:30px; }
+.btn-large {text-transform:none; font-size:18px; margin-right:10px; margin-bottom:30px;} 
+
+
+
+.has-error {color:#ff3b2f;  font-family: 'arsenalbold_italic'; }
+.has-ok {color:#66C70D; font-family: 'arsenalbold_italic';}   
+
+.rise {color:#66C70D; }
+.down {color:#ff3b2f; }
+
+
+.form-signin {
+    margin: 0 auto;
+    max-width: 330px;
+    padding: 15px;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    box-sizing: border-box;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    position: relative;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: -1px;
+}
+.form-signin input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 10px;
+} 
+
+#register.tab-pane table {margin-bottom:80px;}
+
+
